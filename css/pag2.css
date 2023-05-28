@@ -1,0 +1,138 @@
+body{
+    color: black;
+    font-family:  Arial, Helvetica, sans-serif;
+    background-color: #dcd8d8;
+    
+  }
+header {
+    color: gainsboro;
+      background-color:darkgrey;
+      padding: 20px;
+      border-radius: 15px;
+      background-image:linear-gradient(to right, rgb(49, 45, 45),rgb(199, 196, 196)) ;
+    }
+    
+    /* Estilo do menu */
+    nav {
+      border-radius: 10px;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    /* Estilo do submenu */
+    nav ul li .submenu {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      padding: 10px;
+    }
+    
+    nav ul li:hover .submenu {
+      display: block;
+    }
+    
+    nav ul li .submenu li {
+      display: block;
+      margin: 5px 0;
+    }
+    
+    /* Estilo do conteúdo */
+    .content {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+    }
+    
+    section {
+      padding: 20px;
+    }
+    
+    aside {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    /* Estilo do rodapé */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    /* Estilo ao passar o mouse */
+    a:hover {
+      color: red;
+    }
+    
+    /* Estilo responsivo */
+    @media (max-width: 600px) {
+      .content {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    
+
+a{
+    color:rgb(62, 61, 61);
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+ }
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+    
+}
+.container{
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  
+}
+.tabela2{  
+  margin-left: 50px;
+  background-color: rgb(250, 248, 125);
+  color: rgb(25, 10, 235);
+}
+thead{
+    background-color: rgb(207, 188, 188);
+    color: white;
+}
+td.data{
+    text-align: center;
+}
+td.qtd{
+  text-align: center;
+}
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(186, 182, 182);
+}
+
+
+
